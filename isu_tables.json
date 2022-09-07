@@ -40,6 +40,12 @@
     ]
   },
   {
+    "name": "isu.bmd.FKKVKP Contract account for P",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
     "name": "isu.rs.ADRC Addresses",
     "imports": [
       "isu.bmd.BUT020 BP address"
