@@ -52,6 +52,12 @@
     ]
   },
   {
+    "name": "isu.bmd.EVER Contract",
+    "imports": [
+      "isu.bmd.FKKVK Contract account"
+    ]
+  },
+  {
     "name": "isu.rs.ADRC Addresses",
     "imports": [
       "isu.bmd.BUT020 BP address"
