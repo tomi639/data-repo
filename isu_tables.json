@@ -1,41 +1,10 @@
-[
-    {
-        "name": "company.salesManager.salesPersonA",
-        "size": 12,
-        "imports": [
-            "company.salesManager.salesPersonB",
-            "company.HRManager.recruiterB",
-            "company.engineerManager.engineerB"
-        ]
-    },
-    {
-        "name": "company.salesManager.salesPersonB",
-        "size": 2,
-        "imports": []
-    },
-    {
-        "name": "company.HRManager.recruiterA",
-        "size": 120,
-        "imports": [
-            "company.HRManager.recruiterB",
-            "company.salesManager.salesPersonA"
-        ]
-    },
-    {
-        "name": "company.HRManager.recruiterB",
-        "size": 19,
-        "imports": []
-    },
-    {
-        "name": "company.engineerManager.engineerA",
-        "size": 121,
-        "imports": []
-    },
-    {
-        "name": "company.engineerManager.engineerB",
-        "size": 127,
-        "imports": [
-            "company.engineerManager.engineerA"
-        ]
-    }
-]
+[{
+  "name": "iit.mumbai.pub1",
+  "imports": ["iit.chennai.pub3"]
+}, {
+  "name": "iit.delhi.pub2",
+  "imports": ["iit.mumbai.pub1"]
+}, {
+  "name": "iit.chennai.pub3",
+  "imports": ["iit.delhi.pub2"]
+}]
