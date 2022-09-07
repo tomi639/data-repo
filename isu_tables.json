@@ -54,7 +54,8 @@
   {
     "name": "isu.bmd.EVER Contract",
     "imports": [
-      "isu.bmd.FKKVK Contract account"
+      "isu.bmd.FKKVK Contract account",
+      "isu.tmd.EANL Installation"
     ]
   },
   {
@@ -87,5 +88,9 @@
       "isu.rs.ADRC Addresses",
       "isu.rs.ADRPSTCODE Postal codes"
     ]
+  },
+  {
+    "name": "isu.tmd.EANL Installation",
+    "imports": []
   }
 ]
