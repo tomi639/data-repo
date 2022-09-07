@@ -40,24 +40,6 @@
     ]
   },
   {
-    "name": "isu.bmd.FKKVKP Contract account for P",
-    "imports": [
-      "isu.bmd.BUT000 Business Partner"
-    ]
-  },
-  {
-    "name": "isu.bmd.FKKVK Contract account",
-    "imports": [
-      "isu.bmd.FKKVKP Contract account for P"
-    ]
-  },
-  {
-    "name": "isu.bmd.EVER Contract",
-    "imports": [
-      "isu.bmd.FKKVKP Contract account"
-    ]
-  },
-  {
     "name": "isu.rs.ADRC Addresses",
     "imports": [
       "isu.bmd.BUT020 BP address"
@@ -86,12 +68,6 @@
     "imports": [
       "isu.rs.ADRC Addresses",
       "isu.rs.ADRPSTCODE Postal codes"
-    ]
-  },
-  {
-    "name": "isu.tmd.EANL Installation",
-    "imports": [
-      "isu.bmd.EVER Contract"
     ]
   }
 ]
