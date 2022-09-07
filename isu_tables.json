@@ -92,5 +92,22 @@
   {
     "name": "isu.tmd.EANL Installation",
     "imports": []
+  },
+  {
+    "name": "isu.tmd.EUIINSTLN Installation - POD",
+    "imports": [
+      "isu.tmd.EANL Installation"
+    ]
+  },
+  {
+    "name": "isu.tmd.EVBS Premise",
+    "imports": [
+      "isu.tmd.EANL Installation",
+      "isu.tmd.EHAUISU Connection object"
+    ]
+  },
+  {
+    "name": "isu.tmd.EHAUISU Connection object",
+    "imports": []
   }
 ]
