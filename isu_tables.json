@@ -7,4 +7,7 @@
 }, {
   "name": "iit.chennai.pub3",
   "imports": ["iit.delhi.pub2"]
+}, {
+  "name": "iit.chennai.pub4",
+  "imports": ["iit.delhi.pub2","iit.mumbai.pub1" ]
 }]
