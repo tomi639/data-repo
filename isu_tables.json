@@ -1,26 +1,59 @@
-[{
-  "name": "isu.bmd.BUT000 Business Partner",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.EKUN IS-U BP data",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.BCONT Business Contact",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.BUT050 BP relationships",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.BUT100 BP roles",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.BUT020 BP address",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.bmd.BUT0BK BP bank details",
-  "imports": ["isu.bmd.BUT000 Business Partner"]
-}, {
-  "name": "isu.rs.ADRC Addresses",
-  "imports": ["isu.bmd.BUT020 BP address"]
-}
+[
+  {
+    "name": "isu.bmd.BUT000 Business Partner",
+    "imports": []
+  },
+  {
+    "name": "isu.bmd.EKUN IS-U BP data",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.BCONT Business Contact",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.BUT050 BP relationships",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.BUT100 BP roles",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.BUT020 BP address",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.BUT0BK BP bank details",
+    "imports": [
+      "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.rs.ADRC Addresses",
+    "imports": [
+      "isu.bmd.BUT020 BP address"
+    ]
+  },
+  {
+    "name": "isu.rs.ADRPSTCODE Postal codes",
+    "imports": []
+  },
+  {
+    "name": "isu.rs.ADRCITY Cities",
+    "imports": [
+      "isu.rs.ADRC Addresses",
+      "isu.rs.ADRPSTCODE Postal codes"
+    ]
+  }
 ]
