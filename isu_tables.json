@@ -1,13 +1,13 @@
 [{
-  "name": "iit.mumbai.pub1",
-  "imports": ["iit.chennai.pub3"]
+  "name": "isu.bmd.BUT000 Business Partner",
+  "imports": ["isu.bmd.BUT000 Business Partner"]
 }, {
-  "name": "iit.delhi.pub2",
-  "imports": ["iit.mumbai.pub1"]
+  "name": "isu.bmd.EKUN IS-U Business Partner data",
+  "imports": ["isu.bmd.BUT000 Business Partner"]
 }, {
-  "name": "iit.chennai.pub3",
-  "imports": ["iit.delhi.pub2"]
+  "name": "isu.bmd.BCONT Business Contact",
+  "imports": ["isu.bmd.BUT000 Business Partner"]
 }, {
-  "name": "iit.chennai.pub4",
-  "imports": ["iit.delhi.pub2","iit.mumbai.pub1" ]
+  "name": "isu.bmd.BUT050 Business Partner relationships",
+  "imports": ["isu.bmd.BUT000 Business Partner"]
 }]
