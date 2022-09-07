@@ -40,9 +40,15 @@
     ]
   },
   {
-    "name": "isu.bmd.FKKVKP Contract account for P",
+    "name": "isu.bmd.FKKVKP CA for P",
     "imports": [
       "isu.bmd.BUT000 Business Partner"
+    ]
+  },
+  {
+    "name": "isu.bmd.FKKVK Contract account",
+    "imports": [
+      "isu.bmd.FKKVKP CA for P"
     ]
   },
   {
